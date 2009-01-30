@@ -13,9 +13,8 @@ class GemStalker
 
   def built?
     Net::HTTP.start('gems.github.com') {|http|
-      req = Net::HTTP::Head.new(gem_path)
-      response = http.request(req)
-      return response.code == "200"
+      response = http.head(gem_path)
+      response.code == "200"
     }
   end
 
