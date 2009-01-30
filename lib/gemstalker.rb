@@ -5,7 +5,6 @@ class GemStalker
 
   def initialize(options = {})
     @username   = options[:username]
-    @name       = options[:name]
     @repository = options[:repository]
     @version    = options[:version]
 
@@ -22,13 +21,17 @@ class GemStalker
     fetcher = Gem::SpecFetcher.new
     specs = fetcher.load_specs(URI.parse('http://gems.github.com/'), 'specs')
     specs.any? do |(name, spec)|
-      name == @name && spec.version.to_s == @version
+      name == gem_name && spec.version.to_s == @version
     end
   end
 
   protected
 
   def gem_path
-    "/gems/#{@name}-#{@version}.gem"
+    "/gems/#{gem_name}-#{@version}.gem"
+  end
+  
+  def gem_name
+    "#{@username}-#{@repository}"
   end
 end

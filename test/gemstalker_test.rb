@@ -4,7 +4,7 @@ class GemstalkerTest < Test::Unit::TestCase
 
   context "a gem that has not been built" do
     setup do
-      @stalker = GemStalker.new(:name => 'technicalpickles-jeweler', :version => '0.7.3')
+      @stalker = GemStalker.new(:username => 'technicalpickles', :repository => 'jeweler', :version => '0.7.3')
     end
 
     should "not be built yet" do
@@ -18,7 +18,7 @@ class GemstalkerTest < Test::Unit::TestCase
 
   context "a gem that has been built and is available" do
     setup do
-      @stalker = GemStalker.new(:name => 'technicalpickles-jeweler', :version => '0.7.2')
+      @stalker = GemStalker.new(:username => 'technicalpickles', :repository => 'jeweler', :version => '0.7.2')
     end
 
     should "be built" do
