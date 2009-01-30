@@ -6,7 +6,7 @@ class GemStalker
   def initialize(options = {})
     @username   = options[:username]
     @repository = options[:repository]
-    @version    = options[:version]
+    @version    = options[:version] || determine_version
 
   end
 
@@ -33,5 +33,25 @@ class GemStalker
   
   def gem_name
     "#{@username}-#{@repository}"
+  end
+
+  def gemspec_path
+    # TODO this seems very unfuture proof, and also specific to master branch...
+    "/#{@username}/#{@repository}/blob/master/#{@repository}.gemspec?raw=true"
+  end
+
+  def determine_version
+    res = nil
+    Net::HTTP.start('github.com') {|http|
+      res = http.get(gemspec_path)
+    }
+
+    if res.code == "200"
+      gemspec_file = res.body
+      gemspec = nil
+      # TODO this assumes Ruby format, but GitHub is cool with YAML
+      Thread.new { gemspec = eval("$SAFE = 3\n#{gemspec_file}") }.join
+      gemspec.version.to_s
+    end
   end
 end
