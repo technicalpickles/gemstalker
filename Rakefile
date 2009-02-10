@@ -6,10 +6,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "gemstalker"
-    s.summary = %Q{TODO}
+    s.summary = "GemStalker is a small library to determine if GitHub has built a gem yet."
     s.email = "josh@technicalpickles.com"
     s.homepage = "http://github.com/technicalpickles/gemstalker"
-    s.description = "TODO"
+    s.description = "A library for determining if GitHub has built a gem yet"
     s.authors = ["Josh Nichols"]
   end
 rescue LoadError
