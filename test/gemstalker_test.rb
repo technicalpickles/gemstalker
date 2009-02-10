@@ -46,5 +46,19 @@ class GemstalkerTest < Test::Unit::TestCase
     should "be in specfile" do
       assert @stalker.in_specfile?
     end
+
+    should "be a gem" do
+      assert @stalker.gem?
+    end    
+  end
+  
+  context "a stalker for something not marked as a gem" do
+    setup do
+      @stalker = GemStalker.new(:username => 'technicalpickles', :repository => 'bostonrb')
+    end
+
+    should "not be a gem" do
+      assert ! @stalker.gem?
+    end    
   end
 end

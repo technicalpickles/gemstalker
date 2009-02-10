@@ -1,0 +1,68 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'gemstalker'
+
+def usage
+  puts ""
+  puts "Usage:" 
+  puts ""
+  puts "  stalk <username> <repository> [version]"
+  puts ""
+  puts "Begins stalking a gem at the specified location e.g. stalk techinicalpickles jeweler"
+  puts ""
+end
+
+if ARGV.length == 0 || ARGV.include?("-h") || ARGV.include?("--help")
+  usage
+  exit
+end
+
+trap "SIGINT" do
+  puts ""
+  puts "Stopping"
+  exit
+end
+
+options = {:username => ARGV[0], :repository => ARGV[1]}
+options[:version] = ARGV[2] if ARGV.length >= 3
+stalker = GemStalker.new(options)
+
+$stdout.sync = true
+
+if ARGV.length < 3
+  puts "Using version #{stalker.version}"
+end
+
+unless stalker.gem?
+  puts "The repository is not configured as a rubygem"
+  puts "Configure the property in the Admin tab of the repository"
+  exit
+end
+
+waiting = false
+
+puts "Checking to see if the gem has been built"
+loop do
+  if stalker.built?
+    puts "" if waiting
+    puts "=> Zomg, it's built, I'm so telling everyone" 
+    break    
+  end
+  print "."
+  waiting = true
+  sleep(5)
+end
+
+waiting = false
+
+puts "Checking to see if it is in the specfile"
+loop do
+  if stalker.in_specfile?
+    puts "" if waiting
+    puts "=> Sweeeet, everyone can install it now"
+    break    
+  end
+  print "."
+  waiting = true
+  sleep(5)
+end

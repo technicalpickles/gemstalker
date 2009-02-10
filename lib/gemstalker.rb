@@ -16,6 +16,14 @@ class GemStalker
       response.code == "200"
     }
   end
+  
+  def gem?
+    Net::HTTP.start('github.com') {|http|
+      res = http.get(master_path)
+      return res.body =~ /alt\=.Rubygem./ if res.code == "200"
+    }
+    false
+  end
 
   def in_specfile?
     fetcher = Gem::SpecFetcher.new
@@ -40,6 +48,10 @@ class GemStalker
     "/#{@username}/#{@repository}/blob/master/#{@repository}.gemspec?raw=true"
   end
 
+  def master_path
+    "/#{@username}/#{@repository}/tree/master"
+  end
+
   def determine_version
     res = nil
     Net::HTTP.start('github.com') {|http|
@@ -54,4 +66,5 @@ class GemStalker
       gemspec.version.to_s
     end
   end
+  
 end

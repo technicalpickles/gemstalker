@@ -11,6 +11,9 @@ begin
     s.homepage = "http://github.com/technicalpickles/gemstalker"
     s.description = "A library for determining if GitHub has built a gem yet"
     s.authors = ["Josh Nichols"]
+    s.files =  FileList["[A-Z]*", "{bin, lib, test}/**/*"] 
+    s.executables = "stalk"
+    s.bindir = "bin"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
