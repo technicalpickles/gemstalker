@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{A library for determining if GitHub has built a gem yet}
   s.email = %q{josh@technicalpickles.com}
   s.executables = ["stalk"]
-  s.files = ["LICENSE", "Rakefile", "README", "VERSION.yml", "bin/stalk"]
+  s.files = ["LICENSE", "Rakefile", "README", "VERSION.yml", "bin/stalk", "lib/gemstalker.rb", "test/gemstalker_test.rb", "test/test_helper.rb"]
   s.homepage = %q{http://github.com/technicalpickles/gemstalker}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
