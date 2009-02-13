@@ -4,23 +4,23 @@ require 'rake/rdoctask'
 
 begin
   require 'jeweler'
-  Jeweler::Tasks.new do |s|
-    s.name = "gemstalker"
-    s.summary = "GemStalker is a small library to determine if GitHub has built a gem yet."
-    s.email = "josh@technicalpickles.com"
-    s.homepage = "http://github.com/technicalpickles/gemstalker"
-    s.description = "A library for determining if GitHub has built a gem yet"
-    s.authors = ["Josh Nichols"]
-    s.files =  FileList["[A-Z]*", "{bin,lib,test}/**/*"] 
+  Jeweler::Tasks.new do |gem|
+    gem.name = "gemstalker"
+    gem.summary = "GemStalker is a small library to determine if GitHub has built a gem yet."
+    gem.email = "josh@technicalpickles.com"
+    gem.homepage = "http://github.com/technicalpickles/gemstalker"
+    gem.description = "A library for determining if GitHub has built a gem yet"
+    gem.authors = ["Josh Nichols"]
+    gem.files =  FileList["[A-Z]*", "{bin,lib,test}/**/*"] 
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
 
-Rake::TestTask.new do |t|
-  t.libs << 'lib'
-  t.pattern = 'test/**/*_test.rb'
-  t.verbose = false
+Rake::TestTask.new do |test|
+  test.libs << 'lib'
+  test.pattern = 'test/**/*_test.rb'
+  test.verbose = false
 end
 
 Rake::RDocTask.new do |rdoc|
@@ -33,10 +33,10 @@ end
 
 begin
   require 'rcov/rcovtask'
-  Rcov::RcovTask.new do |t|
-    t.libs << 'test'
-    t.test_files = FileList['test/**/*_test.rb']
-    t.verbose = true
+  Rcov::RcovTask.new do |rcov|
+    rcov.libs << 'test'
+    rcov.test_files = FileList['test/**/*_test.rb']
+    rcov.verbose = true
   end
 rescue LoadError
 end
