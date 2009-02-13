@@ -1,9 +1,16 @@
 require 'net/http'
 require 'rubygems/spec_fetcher'
 
+# Small class for determining if a gem has been built on GitHub and if it's installable.
 class GemStalker
   attr_accessor :username, :name, :repository, :version
 
+  # Accepts the following options:
+  #
+  # username::   GitHub username
+  # repository:: repository name
+  # version::    version to stalk. Defaults to checking the repository for a
+  #               gemspec to determine the latest version.
   def initialize(options = {})
     @username   = options[:username]
     @repository = options[:repository]
@@ -11,6 +18,7 @@ class GemStalker
 
   end
 
+  # Is it built yet?
   def built?
     Net::HTTP.start('gems.github.com') {|http|
       response = http.head(gem_path)
@@ -18,6 +26,7 @@ class GemStalker
     }
   end
   
+  # Is RubyGem building enabled for the repository?
   def gem?
     Net::HTTP.start('github.com') {|http|
       res = http.get(master_path)
@@ -26,6 +35,7 @@ class GemStalker
     false
   end
 
+  # Is it in the specs yet? ie is it installable yet?
   def in_specfile?
     fetcher = Gem::SpecFetcher.new
     specs = fetcher.load_specs(URI.parse('http://gems.github.com/'), 'specs')
@@ -34,6 +44,7 @@ class GemStalker
     end
   end
 
+  # Path to edit the repository
   def edit_repo_url
     "http://github.com/#{@username}/#{@repository}/edit"
   end

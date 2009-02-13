@@ -1,9 +1,8 @@
-gemstalker
-==========
+= gemstalker
 
 GemStalker is a small library to determine if GitHub has built a gem yet.
 
-    require 'gemstalker'
+    require 'gem_stalker'
 
     stalker = GemStalker.new(:username => 'technicalpickles', :repository => 'jeweler', :version => '0.7.2'
 
@@ -18,7 +17,8 @@ You can also omit the version, and it will take the version from the repository'
 
 Origin code borrowed and inspired by hasmygembuiltyet.org.
 
-COPYRIGHT
-=========
+Contributions from Jeff Rafter.
+
+== COPYRIGHT
 
 Copyright (c) 2009 Josh Nichols. See LICENSE for details.
