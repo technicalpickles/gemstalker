@@ -42,11 +42,11 @@ end
 
 waiting = false
 
-puts "Checking to see if the gem has been built"
+puts "Checking to see if the gem has been built:"
 loop do
   if stalker.built?
-    puts "" if waiting
-    puts "=> Zomg, it's built, I'm so telling everyone" 
+    put "." if waiting
+    puts "=> Zomg, it's built, I'm so telling everyone!" 
     break    
   end
   print "."
@@ -59,8 +59,8 @@ waiting = false
 puts "Checking to see if it is in the specfile"
 loop do
   if stalker.in_specfile?
-    puts "" if waiting
-    puts "=> Sweeeet, everyone can install it now"
+    put "." if waiting
+    puts "=> Sweeeet, everyone can install it now!"
     break    
   end
   print "."
