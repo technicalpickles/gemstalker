@@ -1,0 +1,728 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.26
+Date: Fri, 13 Feb 2009 20:43:42 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 158ms
+ETag: "c940cce76f6ac4ee99e8917a6bd3991e"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 28887
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>technicalpickles's jeweler at master - GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.com/fluidicon.png" title="GitHub" />
+
+    
+      <link href="http://assets3.github.com/stylesheets/bundle.css?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    
+      
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+        <script src="http://assets2.github.com/javascripts/bundle.js?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" type="text/javascript"></script>
+      
+    
+    
+  
+    
+  
+
+  <link href="http://github.com/feeds/technicalpickles/commits/jeweler/master" rel="alternate" title="Recent Commits to jeweler:master" type="application/atom+xml" />
+
+  <meta name="description" content="Simple and opinionated helper for creating and managing Rubygem projects on GitHub" />
+
+
+    
+  </head>
+
+  
+
+  <body>
+    
+
+    <div id="main">
+      <div id="header" class="">
+        <div class="site">
+          <div class="logo">
+            <a href="http://github.com"><img src="/images/modules/header/logov3.png" alt="github" /></a>
+          </div>
+          
+            <div class="actions">
+              <a href="http://github.com/">Home</a>
+              <a href="/plans"><b><u>Pricing and Signup</u></b></a>
+              <a href="/popular/forked">Repositories</a>
+              <a href="/guides">Guides</a>
+              <a href="/blog">Blog</a>
+              <a href="/login">Login</a>
+            </div>
+          
+        </div>
+      </div>
+      
+      
+        
+  
+  
+    <div id="repo_menu">
+      <div class="site">
+        <ul>
+          
+            <li class="active"><a href="http://github.com/technicalpickles/jeweler/tree/master">Source</a></li>
+
+            <li class=""><a href="http://github.com/technicalpickles/jeweler/commits/master">Commits</a></li>
+
+            <li class=""><a href="/technicalpickles/jeweler/network">Network (15)</a></li>
+
+            
+
+            <li class=""><a href="/technicalpickles/jeweler/downloads">Downloads (12)</a></li>
+
+            <li class=""><a href="http://wiki.github.com/technicalpickles/jeweler">Wiki (1)</a></li>
+
+            <li class=""><a href="/technicalpickles/jeweler/graphs">Graphs</a></li>
+
+            
+
+          
+        </ul>
+      </div>
+    </div>
+  
+
+  <div id="repo_sub_menu">
+    <div class="site">
+      <div class="joiner"></div>
+      
+
+      
+
+      
+
+      
+        <ul>
+          <li>
+            <a class="active" href="/technicalpickles/jeweler/tree/master">master</a>
+          </li>
+          <li>
+            <a href="#">all branches</a>
+            <ul>
+              
+                
+                  <li><a href="/technicalpickles/jeweler/tree/gh-pages">gh-pages</a></li>
+                
+              
+                
+                  <li><a href="/technicalpickles/jeweler/tree/master">master</a></li>
+                
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">all tags</a>
+            
+              <ul>
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.8.1">v0.8.1</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.8.0">v0.8.0</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.7.2">v0.7.2</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.7.1">v0.7.1</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.7.0">v0.7.0</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.5">v0.6.5</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.4">v0.6.4</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.3">v0.6.3</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.2">v0.6.2</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.1">v0.6.1</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.6.0">v0.6.0</a></li>
+                  
+                
+                  
+                    <li><a href="/technicalpickles/jeweler/tree/v0.4.1">v0.4.1</a></li>
+                  
+                
+              </ul>
+            
+          </li>
+        </ul>
+
+      
+    </div>
+  </div>
+
+  <div class="site">
+    
+
+
+
+
+
+<div id="repos">
+  
+
+
+
+
+  <div class="repo public">
+    <div class="title">
+      <div class="path">
+        <a href="/technicalpickles">technicalpickles</a> / <b><a href="http://github.com/technicalpickles/jeweler/tree">jeweler</a></b>
+
+        
+
+          
+
+          
+            
+
+            
+              
+            
+          
+
+          <a href="/signup" class="toggle_watch"><img alt="watch" class="button" src="http://assets2.github.com/images/modules/repos/watch_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a><a href="/signup" class="toggle_watch" style="display:none;"><img alt="watch" class="button" src="http://assets1.github.com/images/modules/repos/unwatch_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a>
+
+          
+            <a href="#" id="download_button" rel="http://github.com/technicalpickles/jeweler/archives/8dc41f18b40b009fe1879860d680429bbe78927c"><img alt="download tarball" class="button" src="http://assets1.github.com/images/modules/repos/download_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a>
+          
+        
+      </div>
+
+      <div class="security private_security" style="display:none">
+        <a href="#private_repo" rel="facebox"><img src="/images/icons/private.png" alt="private" /></a>
+      </div>
+
+      <div id="private_repo" class="hidden">
+        This repository is private.
+        All pages are served over SSL and all pushing and pulling is done over SSH.
+        No one may fork, clone, or view it unless they are added as a <a href="/technicalpickles/jeweler/edit">member</a>.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/private.png" alt="private" />) is private.
+      </div>
+
+      <div class="security public_security" style="">
+        <a href="#public_repo" rel="facebox"><img src="/images/icons/public.png" alt="public" /></a>
+      </div>
+
+      <div id="public_repo" class="hidden">
+        This repository is public.
+        Anyone may fork, clone, or view it.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/public.png" alt="public" />) is public.
+      </div>
+
+      
+        <div class="security" style="margin-right:0.5em;">
+          <a href="#rubygem_install" rel="facebox"><img alt="Rubygem" src="http://assets2.github.com/images/icons/rubygem.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a>
+        </div>
+
+        <div id="rubygem_install" class="hidden">
+          
+            <p>Run the following if you haven't already:</p>
+            <pre>gem sources -a http://gems.github.com</pre>
+            <p>Install the gem(s):</p>
+            
+              <pre>sudo gem install technicalpickles-jeweler</pre>
+            
+          
+        </div>
+      
+
+      <div class="flexipill">
+        <a href="/technicalpickles/jeweler/network">
+        <table cellpadding="0" cellspacing="0">
+          <tr><td><img alt="Forks" src="http://assets3.github.com/images/modules/repos/pills/forks.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td><td class="middle"><span>15</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td></tr>
+        </table>
+        </a>
+      </div>
+
+      <div class="flexipill">
+        <a href="/technicalpickles/jeweler/watchers">
+        <table cellpadding="0" cellspacing="0">
+          <tr><td><img alt="Watchers" src="http://assets3.github.com/images/modules/repos/pills/watchers.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td><td class="middle"><span>153</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td></tr>
+        </table>
+        </a>
+      </div>
+    </div>
+    <div class="meta">
+      <table>
+        
+        
+          <tr>
+            <td class="label">Description:</td>
+            <td>
+              <span id="repository_description" rel="/technicalpickles/jeweler/edit/update" class="">Simple and opinionated helper for creating and managing Rubygem projects on GitHub</span>
+              
+            </td>
+          </tr>
+        
+
+        
+          
+            <tr>
+              <td class="label">Homepage:</td>
+              <td>
+                
+                  
+                  <a href="http://technicalpickles.github.com/jeweler">http://technicalpickles.github.com/jeweler</a>
+                
+              </td>
+            </tr>
+          
+
+          
+            <tr>
+              <td class="label">Clone&nbsp;URL:</td>
+              
+              <td>
+                <a href="git://github.com/technicalpickles/jeweler.git" class="git_url_facebox" rel="#git-clone">git://github.com/technicalpickles/jeweler.git</a>
+                      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="110"
+              height="14"
+              id="clippy" >
+      <param name="movie" value="/flash/clippy.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="text=git://github.com/technicalpickles/jeweler.git">
+      <param name="bgcolor" value="#F0F0F0">
+      <embed src="/flash/clippy.swf"
+             width="110"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="text=git://github.com/technicalpickles/jeweler.git"
+             bgcolor="#F0F0F0"
+      />
+      </object>
+
+                <div id="git-clone" style="display:none;">
+                  Give this clone URL to anyone.
+                  <br/>
+                  <code>git clone git://github.com/technicalpickles/jeweler.git </code>
+                </div>
+              </td>
+            </tr>
+          
+          
+          
+
+          
+
+          
+      </table>
+
+      
+        <div class="pledgie">
+          <a href='http://pledgie.org/campaigns/2604'><img alt='Click here to lend your support to: jeweler and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/2604.png?skin_name=chrome' border='0' /></a>
+        </div>
+          </div>
+  </div>
+
+
+
+
+</div>
+
+
+  <div id="commit">
+    <div class="group">
+        
+  <div class="envelope commit">
+    <div class="human">
+      
+        <div class="message"><pre><a href="/technicalpickles/jeweler/commit/c0b437cc239fa2a998d3827919eb24fe289e152c">Hopefully fixing the build on runcoderun.</a> </pre></div>
+      
+
+      <div class="actor">
+        <div class="gravatar">
+          
+          <img alt="" height="30" src="http://www.gravatar.com/avatar/1c1aabc1abed5cce37b192dd00f0f28c?s=30&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-30.png" width="30" />
+        </div>
+        <div class="name"><a href="/technicalpickles">technicalpickles</a> <span>(author)</span></div>
+          <div class="date">
+            <abbr class="relatize" title="2009-02-09 21:25:58">Mon Feb 09 21:25:58 -0800 2009</abbr> 
+          </div>
+      </div>
+  
+      
+  
+    </div>
+    <div class="machine">
+      <span>c</span>ommit&nbsp;&nbsp;<a href="/technicalpickles/jeweler/commit/c0b437cc239fa2a998d3827919eb24fe289e152c" hotkey="c">c0b437cc239fa2a998d3827919eb24fe289e152c</a><br />
+      <span>t</span>ree&nbsp;&nbsp;&nbsp;&nbsp;<a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c" hotkey="t">1346a54c9423713fe03cf59c8c856e0f7710dd84</a><br />
+  
+      
+        <span>p</span>arent&nbsp;
+        
+        <a href="/technicalpickles/jeweler/tree/036a4f1377302dc7354b7971fd057ad9dd73d53d" hotkey="p">036a4f1377302dc7354b7971fd057ad9dd73d53d</a>
+      
+  
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+
+  
+    <div id="path">
+      <b><a href="/technicalpickles/jeweler/tree">jeweler</a></b> / 
+    </div>
+
+    
+      
+
+  <script type="text/javascript">
+    GitHub.currentTreeSHA = "c0b437cc239fa2a998d3827919eb24fe289e152c"
+    GitHub.rootTreeSHA = "c0b437cc239fa2a998d3827919eb24fe289e152c"
+    GitHub.currentPath = ""
+  </script>
+
+
+<div id="browser">
+  <table cellpadding="0" cellspacing="0">
+    <tr>
+      <th></th>
+      <th>name</th>
+      <th>age</th>
+      <th>
+        <div class="history">
+          <a href="/technicalpickles/jeweler/commits/master/">history</a>
+        </div>
+        message
+      </th>
+    </tr>
+
+    
+
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/.gitignore" id="e8addd6d2bc568f8e980506ca26e6bacd85ee23c">.gitignore</a></td>
+        
+        <td class="age"> <span class="relatize">Sat Jan 31 23:05:10 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/b1003a2f4234f25af4fe2f48f1e35da0d3377d41" class="message">Added support for miniunit.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/ChangeLog.markdown" id="a9a1f857d7936a03059861b79000c3f362492804">ChangeLog.markdown</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Feb 03 14:53:16 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/4b2193fdf4d3490271537d9a774673fca6ce6c49" class="message">Fixed minitest generator, actually.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/LICENSE" id="e2c024b133d2ddb536ef91cf4dceb5900821753e">LICENSE</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Jan 13 23:24:16 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/926dd1d0f02900c95a3b599390d4d6633c74740c" class="message">Added license and TODO.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/README.markdown" id="176ef8fdb23f748d21654ec16fdb4df24cd8e0ed">README.markdown</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Feb 03 14:49:38 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/9df09a9ef3595b17909106b6d5117e67acb684e9" class="message">Added link to GemSpec reference. Fixed referenc...</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/Rakefile" id="6963c6be02973489ad8ca1219ba85efe87657791">Rakefile</a></td>
+        
+        <td class="age"> <span class="relatize">Mon Feb 02 20:15:40 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/63658837b234cada56536c9ecb729e4412743912" class="message">Added support for generating features.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/TODO" id="94c07b701ba0487e3720c41cfd5dad67e9934ed5">TODO</a></td>
+        
+        <td class="age"> <span class="relatize">Sun Feb 08 23:22:36 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/036a4f1377302dc7354b7971fd057ad9dd73d53d" class="message">Ignore pkg and rdoc in generated projects.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/VERSION.yml" id="e809c769c9e770fce1fbcf92eee0a75fa9891dbe">VERSION.yml</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Feb 03 14:53:52 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/9b604d152421b3a55408b7c2fd6497f9589e107c" class="message">Version bump to 0.8.1</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c/bin" id="74e9df2e4ec05eb9ab4d5bd5edf77592c1ad5bec">bin/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Feb 03 14:53:16 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/4b2193fdf4d3490271537d9a774673fca6ce6c49" class="message">Fixed minitest generator, actually.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c/features" id="5250aa59bcb57cf5f1912c5b0d937e6b8e2e5024">features/</a></td>
+        
+        <td class="age"> <span class="relatize">Mon Feb 09 21:25:58 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/c0b437cc239fa2a998d3827919eb24fe289e152c" class="message">Hopefully fixing the build on runcoderun.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/blob/c0b437cc239fa2a998d3827919eb24fe289e152c/jeweler.gemspec" id="0bc34fb8868980e706460fd708bfe698e0e0a7fc">jeweler.gemspec</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Feb 03 14:53:53 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/da76d81fd95aa1ab2343653ba567f939b3fa6738" class="message">Regenerated gemspec for version 0.8.1</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c/lib" id="d6134972115d2c420da5916e08a2d5b8b04febe1">lib/</a></td>
+        
+        <td class="age"> <span class="relatize">Sun Feb 08 23:22:36 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/036a4f1377302dc7354b7971fd057ad9dd73d53d" class="message">Ignore pkg and rdoc in generated projects.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c/test" id="6b6d9646a11d20f1746bd7ef2290eab189434525">test/</a></td>
+        
+        <td class="age"> <span class="relatize">Mon Feb 09 21:25:58 -0800 2009</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/c0b437cc239fa2a998d3827919eb24fe289e152c" class="message">Hopefully fixing the build on runcoderun.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4d27ac28d46a533859aff933fdb9ffabc13408f0" /> </td>
+        <td class="content"> <a href="/technicalpickles/jeweler/tree/c0b437cc239fa2a998d3827919eb24fe289e152c/vendor" id="cc4e0f08fd9b289d86e498d8d8d7a99cbfa88df6">vendor/</a></td>
+        
+        <td class="age"> <span class="relatize">Sat Nov 15 03:52:03 -0800 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/jeweler/commit/8dc41f18b40b009fe1879860d680429bbe78927c" class="message">Cleaned eol whitespace</a> [<a href="/namelessjon">namelessjon</a>] </td>
+      </tr>
+    
+  </table>
+</div>
+    
+    
+  
+
+
+
+  <div id="readme" class="announce"><span class="name"></span><div class="wikistyle"><h1>Jeweler: Craft the perfect RubyGem</h1>
+
+<p>Jeweler provides two things:</p>
+
+<ul>
+<li>Rake tasks for managing gems and versioning of a <a href="http://github.com">GitHub</a> project</li>
+<li>A generator for creating kickstarting a new project</li>
+</ul>
+
+
+<h2>Setting up in an existing project</h2>
+
+<p>It's easy to get up and running. Update your instantiate a <code>Jeweler::Tasks</code>, and give it a block with details about your project.</p>
+
+<pre><code>begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |s|
+    s.name = "the-perfect-gem"
+    s.summary = "TODO"
+    s.email = "josh@technicalpickles.com"
+    s.homepage = "http://github.com/technicalpickles/the-perfect-gem"
+    s.description = "TODO"
+    s.authors = ["Josh Nichols"]
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+end
+</code></pre>
+
+<p>In this example, <code>s</code> is a Gem::Specification object. See the <a href="http://www.rubygems.org/read/chapter/20">GemSpec reference</a> for values of interest.</p>
+
+<h2>Kicking off a new project</h2>
+
+<p>Jeweler provides a generator. It requires you to <a href="http://github.com/guides/tell-git-your-user-name-and-email-address">setup your name and email for git</a> and <a href="http://github.com/guides/local-github-config">your username and token for GitHub</a>.</p>
+
+<pre><code>jeweler the-perfect-gem
+</code></pre>
+
+<p>This will prepare a project in the 'the-perfect-gem' directory, setup to use Jeweler.</p>
+
+<p>It supports a number of options:</p>
+
+<ul>
+<li>--create-repo: in addition to preparing a project, it create an repo up on GitHub and enable RubyGem generation</li>
+<li>--testunit: generate test_helper.rb and test ready for test/unit</li>
+<li>--minitest: generate test_helper.rb and test ready for minitest </li>
+<li>--shoulda: generate test_helper.rb and test ready for shoulda (this is the default)</li>
+<li>--rspec: generate spec_helper.rb and spec ready for rspec</li>
+<li>--bacon: generate spec_helper.rb and spec ready for bacon</li>
+</ul>
+
+
+<h2>Gemspec</h2>
+
+<p>Jeweler handles generating a gemspec file for your project:</p>
+
+<pre><code>rake gemspec
+</code></pre>
+
+<p>This creates a gemspec for your project. It's based on the info you give <code>Jeweler::Tasks</code>, the current version of your project, and some defaults that Jeweler provides.</p>
+
+<h2>Gem</h2>
+
+<p>Jeweler gives you tasks for building and installing your gem:</p>
+
+<pre><code>rake build
+rake install
+</code></pre>
+
+<h2>Versioning</h2>
+
+<p>Jeweler tracks the version of your project. It assumes you will be using a version in the format <code>x.y.z</code>. <code>x</code> is the 'major' version, <code>y</code> is the 'minor' version, and <code>z</code> is the patch version.</p>
+
+<p>Initially, your project starts out at 0.0.0. Jeweler provides Rake tasks for bumping the version:</p>
+
+<pre><code>rake version:bump:major
+rake version:bump:minor
+rake version:bump:patch
+</code></pre>
+
+<h2>Releasing</h2>
+
+<p>Jeweler handles releasing your gem into the wild:</p>
+
+<pre><code>rake release
+</code></pre>
+
+<p>It does the following for you:</p>
+
+<ul>
+<li>Regenerate the gemspec to the latest version of your project</li>
+<li>Push to GitHub (which results in a gem being build)</li>
+<li>Tag the version and push to GitHub</li>
+</ul>
+
+
+<h2>Workflow</h2>
+
+<ul>
+<li>Hack, commit, hack, commit, etc, etc</li>
+<li><code>rake version:bump:patch release</code> to do the actual version bump and release</li>
+<li>Have a delicious scotch</li>
+<li>Go to <a href="http://hasmygembuiltyet.org">Has My Gem Built Yet</a> and wait for your gem to be built</li>
+</ul>
+
+
+<h2>Links</h2>
+
+<ul>
+<li><a href="http://technicalpickles.lighthouseapp.com/projects/23560-jeweler/overview">Bugs</a></li>
+<li><a href="http://pledgie.org/campaigns/2604">Donate</a></li>
+</ul>
+
+</div></div>
+
+  </div>
+
+      
+      
+      <div class="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="site">
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog/148-github-shirts-now-available">Shirts</a> |
+            <a href="http://github.com/blog">Blog</a> |
+            <a href="http://support.github.com/">Support</a> |
+            <a href="http://github.com/training">Training</a> |
+            <a href="http://github.com/contact">Contact</a> |
+            <a href="http://groups.google.com/group/github/">Google Group</a> |
+            <a href="http://github.com/guides/the-github-api">API</a> |
+            <a href="http://twitter.com/github">Status</a>
+          </div>
+          <div class="company">
+            <span id="_rrt" title="0.17456s from xc88-s00039">GitHub</span>
+            is <a href="http://logicalawesome.com/">Logical Awesome</a> &copy;2009 | <a href="/site/terms">Terms of Service</a> | <a href="/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="http://engineyard.com"><img src="/images/modules/footer/engine_yard_logo.png" alt="Engine Yard" /></a>
+          <div>
+            Hosting provided by our<br /> partners at Engine Yard
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="coming_soon" style="display:none;">
+      This feature is coming soon.  Sit tight!
+    </div>
+
+    
+        <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3769691-2");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+
+    
+  </body>
+</html>
+

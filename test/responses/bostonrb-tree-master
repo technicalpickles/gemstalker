@@ -1,0 +1,565 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.31
+Date: Fri, 13 Feb 2009 20:42:33 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 246ms
+ETag: "1c00ed4642a98376fce3133a7177c84d"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 23314
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>technicalpickles's bostonrb at master - GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.com/fluidicon.png" title="GitHub" />
+
+    
+      <link href="http://assets3.github.com/stylesheets/bundle.css?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    
+      
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+        <script src="http://assets2.github.com/javascripts/bundle.js?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" type="text/javascript"></script>
+      
+    
+    
+  
+    
+  
+
+  <link href="http://github.com/feeds/technicalpickles/commits/bostonrb/master" rel="alternate" title="Recent Commits to bostonrb:master" type="application/atom+xml" />
+
+  <meta name="description" content="Website for bostonrb.org" />
+
+
+    
+  </head>
+
+  
+
+  <body>
+    
+
+    <div id="main">
+      <div id="header" class="">
+        <div class="site">
+          <div class="logo">
+            <a href="http://github.com"><img src="/images/modules/header/logov3.png" alt="github" /></a>
+          </div>
+          
+            <div class="actions">
+              <a href="http://github.com/">Home</a>
+              <a href="/plans"><b><u>Pricing and Signup</u></b></a>
+              <a href="/popular/forked">Repositories</a>
+              <a href="/guides">Guides</a>
+              <a href="/blog">Blog</a>
+              <a href="/login">Login</a>
+            </div>
+          
+        </div>
+      </div>
+      
+      
+        
+  
+  
+    <div id="repo_menu">
+      <div class="site">
+        <ul>
+          
+            <li class="active"><a href="http://github.com/technicalpickles/bostonrb/tree/master">Source</a></li>
+
+            <li class=""><a href="http://github.com/technicalpickles/bostonrb/commits/master">Commits</a></li>
+
+            <li class=""><a href="/technicalpickles/bostonrb/network">Network (7)</a></li>
+
+            
+
+            <li class=""><a href="/technicalpickles/bostonrb/downloads">Downloads (0)</a></li>
+
+            <li class=""><a href="http://wiki.github.com/technicalpickles/bostonrb">Wiki (1)</a></li>
+
+            <li class=""><a href="/technicalpickles/bostonrb/graphs">Graphs</a></li>
+
+            
+
+          
+        </ul>
+      </div>
+    </div>
+  
+
+  <div id="repo_sub_menu">
+    <div class="site">
+      <div class="joiner"></div>
+      
+
+      
+
+      
+
+      
+        <ul>
+          <li>
+            <a class="active" href="/technicalpickles/bostonrb/tree/master">master</a>
+          </li>
+          <li>
+            <a href="#">all branches</a>
+            <ul>
+              
+                
+                  <li><a href="/technicalpickles/bostonrb/tree/master">master</a></li>
+                
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">all tags</a>
+            
+          </li>
+        </ul>
+
+      
+    </div>
+  </div>
+
+  <div class="site">
+    
+
+
+
+
+
+<div id="repos">
+  
+
+
+
+
+  <div class="repo public">
+    <div class="title">
+      <div class="path">
+        <a href="/technicalpickles">technicalpickles</a> / <b><a href="http://github.com/technicalpickles/bostonrb/tree">bostonrb</a></b>
+
+        
+
+          
+
+          
+            
+
+            
+              
+            
+          
+
+          <a href="/signup" class="toggle_watch"><img alt="watch" class="button" src="http://assets2.github.com/images/modules/repos/watch_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a><a href="/signup" class="toggle_watch" style="display:none;"><img alt="watch" class="button" src="http://assets1.github.com/images/modules/repos/unwatch_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a>
+
+          
+            <a href="#" id="download_button" rel="http://github.com/technicalpickles/bostonrb/archives/master"><img alt="download tarball" class="button" src="http://assets1.github.com/images/modules/repos/download_button.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></a>
+          
+        
+      </div>
+
+      <div class="security private_security" style="display:none">
+        <a href="#private_repo" rel="facebox"><img src="/images/icons/private.png" alt="private" /></a>
+      </div>
+
+      <div id="private_repo" class="hidden">
+        This repository is private.
+        All pages are served over SSL and all pushing and pulling is done over SSH.
+        No one may fork, clone, or view it unless they are added as a <a href="/technicalpickles/bostonrb/edit">member</a>.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/private.png" alt="private" />) is private.
+      </div>
+
+      <div class="security public_security" style="">
+        <a href="#public_repo" rel="facebox"><img src="/images/icons/public.png" alt="public" /></a>
+      </div>
+
+      <div id="public_repo" class="hidden">
+        This repository is public.
+        Anyone may fork, clone, or view it.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/public.png" alt="public" />) is public.
+      </div>
+
+      
+
+      <div class="flexipill">
+        <a href="/technicalpickles/bostonrb/network">
+        <table cellpadding="0" cellspacing="0">
+          <tr><td><img alt="Forks" src="http://assets3.github.com/images/modules/repos/pills/forks.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td><td class="middle"><span>7</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td></tr>
+        </table>
+        </a>
+      </div>
+
+      <div class="flexipill">
+        <a href="/technicalpickles/bostonrb/watchers">
+        <table cellpadding="0" cellspacing="0">
+          <tr><td><img alt="Watchers" src="http://assets3.github.com/images/modules/repos/pills/watchers.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td><td class="middle"><span>2</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /></td></tr>
+        </table>
+        </a>
+      </div>
+    </div>
+    <div class="meta">
+      <table>
+        
+          <tr>
+            <td class="label" colspan="2">
+              <em>Fork of <a href="/bostonrb/bostonrb/tree">bostonrb/bostonrb</a></em>
+            </td>
+          </tr>
+        
+        
+          <tr>
+            <td class="label">Description:</td>
+            <td>
+              <span id="repository_description" rel="/technicalpickles/bostonrb/edit/update" class="">Website for bostonrb.org</span>
+              
+            </td>
+          </tr>
+        
+
+        
+          
+            <tr>
+              <td class="label">Homepage:</td>
+              <td>
+                
+                  
+                  <a href="http://bostonrb.org">http://bostonrb.org</a>
+                
+              </td>
+            </tr>
+          
+
+          
+            <tr>
+              <td class="label">Clone&nbsp;URL:</td>
+              
+              <td>
+                <a href="git://github.com/technicalpickles/bostonrb.git" class="git_url_facebox" rel="#git-clone">git://github.com/technicalpickles/bostonrb.git</a>
+                      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="110"
+              height="14"
+              id="clippy" >
+      <param name="movie" value="/flash/clippy.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="text=git://github.com/technicalpickles/bostonrb.git">
+      <param name="bgcolor" value="#F0F0F0">
+      <embed src="/flash/clippy.swf"
+             width="110"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="text=git://github.com/technicalpickles/bostonrb.git"
+             bgcolor="#F0F0F0"
+      />
+      </object>
+
+                <div id="git-clone" style="display:none;">
+                  Give this clone URL to anyone.
+                  <br/>
+                  <code>git clone git://github.com/technicalpickles/bostonrb.git </code>
+                </div>
+              </td>
+            </tr>
+          
+          
+          
+
+          
+
+          
+      </table>
+
+          </div>
+  </div>
+
+
+
+
+</div>
+
+
+  <div id="commit">
+    <div class="group">
+        
+  <div class="envelope commit">
+    <div class="human">
+      
+        <div class="message"><pre><a href="/technicalpickles/bostonrb/commit/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1">Removed old quietbacktrace.</a> </pre></div>
+      
+
+      <div class="actor">
+        <div class="gravatar">
+          
+          <img alt="" height="30" src="http://www.gravatar.com/avatar/1c1aabc1abed5cce37b192dd00f0f28c?s=30&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-30.png" width="30" />
+        </div>
+        <div class="name"><a href="/technicalpickles">technicalpickles</a> <span>(author)</span></div>
+          <div class="date">
+            <abbr class="relatize" title="2008-10-11 22:38:37">Sat Oct 11 22:38:37 -0700 2008</abbr> 
+          </div>
+      </div>
+  
+      
+  
+    </div>
+    <div class="machine">
+      <span>c</span>ommit&nbsp;&nbsp;<a href="/technicalpickles/bostonrb/commit/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1" hotkey="c">8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1</a><br />
+      <span>t</span>ree&nbsp;&nbsp;&nbsp;&nbsp;<a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1" hotkey="t">01f4280d8bcd3c90c330c987c09147dda2f23e43</a><br />
+  
+      
+        <span>p</span>arent&nbsp;
+        
+        <a href="/technicalpickles/bostonrb/tree/eb57cd053c25bd68e9b6f7fe0e8e02d2ba55167a" hotkey="p">eb57cd053c25bd68e9b6f7fe0e8e02d2ba55167a</a>
+      
+  
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+
+  
+    <div id="path">
+      <b><a href="/technicalpickles/bostonrb/tree">bostonrb</a></b> / 
+    </div>
+
+    
+      
+
+  <script type="text/javascript">
+    GitHub.currentTreeSHA = "8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1"
+    GitHub.rootTreeSHA = "8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1"
+    GitHub.currentPath = ""
+  </script>
+
+
+<div id="browser">
+  <table cellpadding="0" cellspacing="0">
+    <tr>
+      <th></th>
+      <th>name</th>
+      <th>age</th>
+      <th>
+        <div class="history">
+          <a href="/technicalpickles/bostonrb/commits/master/">history</a>
+        </div>
+        message
+      </th>
+    </tr>
+
+    
+
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/blob/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/.gitignore" id="3410b4c5ca09bd3b80cb7f5ad1a539d1d116b396">.gitignore</a></td>
+        
+        <td class="age"> <span class="relatize">Wed May 28 21:15:59 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/c169dfce5d91eaeca725cb00815877d334457f25" class="message">Added metrics stuff to gitignore.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/blob/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/.svnignore" id="1a306a628e7c1a902ad4e7529e0670145a9a9605">.svnignore</a></td>
+        
+        <td class="age"> <span class="relatize">Tue May 27 17:41:55 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/a69e68af4fc4ca637f7fbc579f2bb2a546543004" class="message">Initial import.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/blob/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/Capfile" id="edcdddca15972462ccec61e422ca2c73a51f872b">Capfile</a></td>
+        
+        <td class="age"> <span class="relatize">Tue May 27 18:34:06 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/50491df2638c12f8b6ab91b4bb354a7a425d1bbc" class="message">Use local deploy.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/blob/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/README" id="93c9bcb42f29768e9be9a4560e54ba9619294297">README</a></td>
+        
+        <td class="age"> <span class="relatize">Tue May 27 17:41:55 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/a69e68af4fc4ca637f7fbc579f2bb2a546543004" class="message">Initial import.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets2.github.com/images/icons/txt.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/blob/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/Rakefile" id="ecffcd6facdc4dc8eb38ffaffd4db8287b7dc8be">Rakefile</a></td>
+        
+        <td class="age"> <span class="relatize">Tue May 27 17:41:55 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/a69e68af4fc4ca637f7fbc579f2bb2a546543004" class="message">Initial import.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/app" id="eb637070b1ec9bfc22646b4e255c348a876567f3">app/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Oct 07 17:20:02 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/39d509fc4db5b44273225c6f18356f3ab095b1f9" class="message">Fixed geocoding.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/config" id="6ab6abb13a3075b35ed881976ccc6fb3c0584671">config/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Oct 07 17:42:36 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/ce7086b8ace01bf460cd21766dd84e63ef4fca8e" class="message">Fixing ruby-debug dependency.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/db" id="0a3a78fd30d03f9755b567a6f7e2b4140b1f34a3">db/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Sep 23 21:54:58 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/034423e89f546acffc80e1a14ee079736426b2b4" class="message">Use cached html, durnit.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/doc" id="154705c6aa1c8ead8c99c7915373e3c44012057f">doc/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue May 27 17:41:55 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/a69e68af4fc4ca637f7fbc579f2bb2a546543004" class="message">Initial import.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/lib" id="7aa4e04cc62cae12fed864cc2f977cfeea68d86e">lib/</a></td>
+        
+        <td class="age"> <span class="relatize">Sat May 31 10:11:27 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/e4e2946ae0d8ee6a6663eee4e87f98f433dc4477" class="message">writing Array#halve method</a> [<a href="/dancroak">dancroak</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/log" id="d564d0bc3dd917926892c55e3706cc116d5b165e">log/</a></td>
+        
+        <td class="age"> <span class="relatize">Wed May 28 20:48:55 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/110b465ff7a8dc4ce9a316b6fe296143953348cd" class="message">Trying to keep logs working...</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/public" id="c9b38ffe80ceb93d134ee3f4fd78286c73346a1e">public/</a></td>
+        
+        <td class="age"> <span class="relatize">Wed Oct 08 22:20:31 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/eb57cd053c25bd68e9b6f7fe0e8e02d2ba55167a" class="message">Adding a file, for Yahoo API signup.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/script" id="5b4ed4ab5b65e1fa8d4a1f9cd6602eb89dce74b7">script/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Jul 01 17:17:05 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/5540b73902dde34b65c45fe615b917fc68c63603" class="message">Upgraded to Rails 2.1\!</a> [thoughtbot] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/test" id="5cd86ff77b4ce302840fda1b880677564edc7d3a">test/</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Oct 07 17:20:02 -0700 2008</span> </td>
+        <td class="message"> <a href="/technicalpickles/bostonrb/commit/39d509fc4db5b44273225c6f18356f3ab095b1f9" class="message">Fixed geocoding.</a> [<a href="/technicalpickles">technicalpickles</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets1.github.com/images/icons/dir.png?82188d2a7557f7d8fc32b3c99ad7d0356ed69b5f" /> </td>
+        <td class="content"> <a href="/technicalpickles/bostonrb/tree/8e0031c958d7f3358a2c92c1a9d9ecca3b7960b1/vendor" id="65cc07730489199efbcd42a5124d2a6f8b0cba9d">vendor/</a></td>
+        
+        <td class="age">  </td>
+        <td class="message"> <span id="loading_commit_data">Loading commit data... <img src="/images/modules/ajax/indicator.gif"/></span> </td>
+      </tr>
+    
+  </table>
+</div>
+    
+    
+  
+
+
+
+  <div id="readme" class="announce"><span class="name"></span><div class="plain"><pre>
+
+This needs to be called by cron:
+PATH_TO_APP/script/runner Project.download_entries</pre></div></div>
+
+  </div>
+
+      
+      
+      <div class="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="site">
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog/148-github-shirts-now-available">Shirts</a> |
+            <a href="http://github.com/blog">Blog</a> |
+            <a href="http://support.github.com/">Support</a> |
+            <a href="http://github.com/training">Training</a> |
+            <a href="http://github.com/contact">Contact</a> |
+            <a href="http://groups.google.com/group/github/">Google Group</a> |
+            <a href="http://github.com/guides/the-github-api">API</a> |
+            <a href="http://twitter.com/github">Status</a>
+          </div>
+          <div class="company">
+            <span id="_rrt" title="0.20003s from xc88-s00008">GitHub</span>
+            is <a href="http://logicalawesome.com/">Logical Awesome</a> &copy;2009 | <a href="/site/terms">Terms of Service</a> | <a href="/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="http://engineyard.com"><img src="/images/modules/footer/engine_yard_logo.png" alt="Engine Yard" /></a>
+          <div>
+            Hosting provided by our<br /> partners at Engine Yard
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="coming_soon" style="display:none;">
+      This feature is coming soon.  Sit tight!
+    </div>
+
+    
+        <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3769691-2");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+
+    
+  </body>
+</html>
+

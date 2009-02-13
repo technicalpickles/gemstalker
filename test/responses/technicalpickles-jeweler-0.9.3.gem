@@ -1,0 +1,15 @@
+HTTP/1.1 404 Not Found
+Server: nginx/0.6.26
+Date: Fri, 13 Feb 2009 20:37:35 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Keep-Alive: timeout=20
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/0.6.26</center>
+</body>
+</html>
