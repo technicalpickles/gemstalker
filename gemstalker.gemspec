@@ -2,16 +2,16 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gemstalker}
-  s.version = "0.2.1"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Nichols"]
   s.date = %q{2009-02-13}
-  s.default_executable = %q{stalk}
+  s.default_executable = %q{gemstalk}
   s.description = %q{A library for determining if GitHub has built a gem yet}
   s.email = %q{josh@technicalpickles.com}
-  s.executables = ["stalk"]
-  s.files = ["LICENSE", "Rakefile", "README", "VERSION.yml", "bin/stalk", "lib/gemstalker.rb", "test/gemstalker_test.rb", "test/responses", "test/responses/bostonrb-tree-master", "test/responses/bostonrb.gemspec", "test/responses/jeweler-tree-master", "test/responses/jeweler.gemspec", "test/responses/specs.4.8.gz", "test/responses/technicalpickles-jeweler-0.8.1.gem", "test/responses/technicalpickles-jeweler-0.9.3.gem", "test/test_helper.rb"]
+  s.executables = ["gemstalk"]
+  s.files = ["LICENSE", "Rakefile", "README", "VERSION.yml", "bin/gemstalk", "lib/gem_stalker.rb", "test/gemstalker_test.rb", "test/responses", "test/responses/bostonrb-tree-master", "test/responses/bostonrb.gemspec", "test/responses/jeweler-tree-master", "test/responses/jeweler.gemspec", "test/responses/specs.4.8.gz", "test/responses/technicalpickles-jeweler-0.8.1.gem", "test/responses/technicalpickles-jeweler-0.9.3.gem", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/technicalpickles/gemstalker}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
