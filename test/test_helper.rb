@@ -6,7 +6,7 @@ require 'fake_web'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.dirname(__FILE__), '..', 'lib')
-require 'gemstalker'
+require 'gem_stalker'
 
 FakeWeb.allow_net_connect = false
 FakeWeb.register_uri 'http://gems.github.com:80/gems/technicalpickles-jeweler-0.8.1.gem',

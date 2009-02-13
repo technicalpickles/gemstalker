@@ -1,4 +1,5 @@
 require 'net/http'
+require 'rubygems/spec_fetcher'
 
 class GemStalker
   attr_accessor :username, :name, :repository, :version
@@ -33,6 +34,10 @@ class GemStalker
     end
   end
 
+  def edit_repo_url
+    "http://github.com/#{@username}/#{@repository}/edit"
+  end
+
   protected
 
   def gem_path
@@ -51,6 +56,8 @@ class GemStalker
   def master_path
     "/#{@username}/#{@repository}/tree/master"
   end
+
+
 
   def determine_version
     res = nil

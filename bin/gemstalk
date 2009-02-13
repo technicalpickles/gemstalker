@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
-require 'rubygems'
-require 'gemstalker'
+$LOAD_PATH.unshift(File.dirname(__FILE__), '..', 'lib')
+require 'gem_stalker'
 
 def usage
   puts ""
   puts "Usage:" 
   puts ""
-  puts "  stalk <username> <repository> [version]"
+  puts "  #{File.basename $0} <username> <repository> [version]"
   puts ""
   puts "Begins stalking a gem at the specified location e.g. stalk techinicalpickles jeweler"
   puts ""
@@ -29,14 +29,15 @@ stalker = GemStalker.new(options)
 
 $stdout.sync = true
 
-if ARGV.length < 3
-  puts "Using version #{stalker.version}"
+unless stalker.gem?
+  puts "The repository is not configured as a rubygem yet." 
+  puts "Go to the following url, and check 'RubyGem'"
+  puts "\t#{stalker.edit_repo_url}"
+  exit
 end
 
-unless stalker.gem?
-  puts "The repository is not configured as a rubygem"
-  puts "Configure the property in the Admin tab of the repository"
-  exit
+if ARGV.length < 3
+  puts "Using version #{stalker.version}"
 end
 
 waiting = false
