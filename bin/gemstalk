@@ -8,8 +8,9 @@ def usage
   puts ""
   puts "  #{File.basename $0} <username> <repository> [version]"
   puts ""
-  puts "Begins stalking a gem at the specified location e.g. stalk techinicalpickles jeweler"
+  puts "Begins stalking a gem at the specified location. Example:" 
   puts ""
+  puts "  #{File.basename $0} techinicalpickles jeweler"
 end
 
 if ARGV.length == 0 || ARGV.include?("-h") || ARGV.include?("--help")
@@ -45,7 +46,7 @@ waiting = false
 puts "Checking to see if the gem has been built:"
 loop do
   if stalker.built?
-    put "." if waiting
+    puts "." if waiting
     puts "=> Zomg, it's built, I'm so telling everyone!" 
     break    
   end
@@ -59,7 +60,7 @@ waiting = false
 puts "Checking to see if it is in the specfile"
 loop do
   if stalker.in_specfile?
-    put "." if waiting
+    puts "." if waiting
     puts "=> Sweeeet, everyone can install it now!"
     break    
   end
