@@ -57,7 +57,7 @@ end
 
 waiting = false
 
-puts "Checking to see if it is in the specfile"
+puts "Checking to see if it is in the specfile:"
 loop do
   if stalker.in_specfile?
     puts "." if waiting
@@ -66,5 +66,5 @@ loop do
   end
   print "."
   waiting = true
-  sleep(5)
+  sleep(60*5)
 end
