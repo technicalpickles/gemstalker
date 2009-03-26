@@ -62,7 +62,7 @@ loop do
   if stalker.in_specfile?
     puts "." if waiting
     puts "=> Sweeeet, everyone can install it now!"
-    break    
+    break
   end
   print "."
   waiting = true
