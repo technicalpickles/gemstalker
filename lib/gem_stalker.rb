@@ -44,17 +44,24 @@ class GemStalker
     end
   end
 
+  def install
+    sudo = RUBY_PLATFORM =~ /mswin32/ ? '' : 'sudo'
+    wget = "wget http://gems.github.com/#{gem_path}"
+    install = "#{sudo} gem install #{gem_name}-#{@version}.gem"
+    system "#{wget}; #{install}"
+  end
+  
   # Path to edit the repository
   def edit_repo_url
     "http://github.com/#{@username}/#{@repository}/edit"
   end
 
-  protected
-
   def gem_path
     "/gems/#{gem_name}-#{@version}.gem"
   end
   
+  protected
+
   def gem_name
     "#{@username}-#{@repository}"
   end
@@ -67,8 +74,6 @@ class GemStalker
   def master_path
     "/#{@username}/#{@repository}/tree/master"
   end
-
-
 
   def determine_version
     res = nil

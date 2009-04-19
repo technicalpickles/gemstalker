@@ -6,7 +6,7 @@ def usage
   puts ""
   puts "Usage:" 
   puts ""
-  puts "  #{File.basename $0} <username> <repository> [version]"
+  puts "  #{File.basename $0} <username> <repository> [version] [--install]"
   puts ""
   puts "Begins stalking a gem at the specified location. Example:" 
   puts ""
@@ -25,7 +25,8 @@ trap "SIGINT" do
 end
 
 options = {:username => ARGV[0], :repository => ARGV[1]}
-options[:version] = ARGV[2] if ARGV.length >= 3
+options[:version] = ARGV[2] if ARGV.length >= 3 && ARGV[2] != '--install'
+options[:install] = true if ARGV.include?('--install')
 stalker = GemStalker.new(options)
 
 $stdout.sync = true
@@ -48,11 +49,18 @@ loop do
   if stalker.built?
     puts "." if waiting
     puts "=> Zomg, it's built, I'm so telling everyone!" 
+    puts "=> http://gems.github.com/#{stalker.gem_path}" 
     break    
   end
   print "."
   waiting = true
   sleep(5)
+end
+
+# Now that it is built lets install
+if options[:install]
+  puts "=> Installing built gem"
+  stalker.install
 end
 
 waiting = false
