@@ -29,6 +29,8 @@ options[:version] = ARGV[2] if ARGV.length >= 3 && ARGV[2] != '--install'
 options[:install] = true if ARGV.include?('--install')
 stalker = GemStalker.new(options)
 
+puts "Stalking #{stalker.username}-#{stalker.repository}-#{stalker.version}"
+
 $stdout.sync = true
 
 unless stalker.gem?
@@ -38,9 +40,6 @@ unless stalker.gem?
   exit
 end
 
-if ARGV.length < 3
-  puts "Using version #{stalker.version}"
-end
 
 waiting = false
 
