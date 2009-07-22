@@ -3,9 +3,14 @@
 GemStalker is a small utility to determine if GitHub has built a gem yet.
 
   sudo gem install technicalpickles-gemstalker --source http://gems.github.com
-  gemstalk yourusername yourrepo yourversion
 
-You can also omit the version, and it will take the version from the repository's gemspec on the master branch.
+  gemstalk <username> <repository> <version>
+  gemstalk <username> <repository>
+  gemstalk
+
+If you leave of the version, it will be figured out from the repository's gemspec on the master branch.
+
+If you also leave of the username and repository, they will be figured out from the the origin remote's URL. The version will also be figured out from the repository's gemspec on master.
 
 == Contributions and credit
 
