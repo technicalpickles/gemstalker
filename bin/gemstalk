@@ -13,7 +13,7 @@ def usage
   puts "  #{File.basename $0} techinicalpickles jeweler"
 end
 
-if ARGV.length == 0 || ARGV.include?("-h") || ARGV.include?("--help")
+if ARGV.include?("-h") || ARGV.include?("--help")
   usage
   exit
 end

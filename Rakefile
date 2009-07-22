@@ -12,6 +12,7 @@ begin
     gem.description = "A library for determining if GitHub has built a gem yet"
     gem.authors = ["Josh Nichols"]
     gem.files =  FileList["[A-Z]*", "{bin,lib,test}/**/*"] 
+    gem.add_dependency "git"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

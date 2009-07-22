@@ -51,6 +51,21 @@ class GemstalkerTest < Test::Unit::TestCase
       assert @stalker.gem?
     end    
   end
+
+  context "a stalker, without username and repository" do
+    setup do
+      @stalker = GemStalker.new(:version => '0.8.1')
+    end
+
+    should "determine username from git remote" do
+      assert_equal 'technicalpickles', @stalker.username
+    end
+
+    should "determine repository from git remote" do
+      assert_equal 'gemstalker', @stalker.repository
+    end
+
+  end
   
   context "a stalker for something not marked as a gem" do
     setup do

@@ -1,5 +1,6 @@
 require 'net/http'
 require 'rubygems/spec_fetcher'
+require 'git'
 
 # Small class for determining if a gem has been built on GitHub and if it's installable.
 class GemStalker
@@ -14,7 +15,12 @@ class GemStalker
   def initialize(options = {})
     @username   = options[:username]
     @repository = options[:repository]
+    unless @username && @repository
+      @username, @repository = determine_username_and_repository
+    end
+
     @version    = options[:version] || determine_version
+
 
   end
 
@@ -89,5 +95,13 @@ class GemStalker
       gemspec.version.to_s
     end
   end
-  
+
+  def determine_username_and_repository
+    git = Git.open(Dir.pwd)
+
+    origin_url = git.remote('origin').url
+    origin_url =~ /git@github\.com:(.*)\/(.*)\.git/
+
+    username, repository = $1, $2
+  end
 end
