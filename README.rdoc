@@ -8,9 +8,9 @@ GemStalker is a small utility to determine if GitHub has built a gem yet.
   gemstalk <username> <repository>
   gemstalk
 
-If you leave of the version, it will be figured out from the repository's gemspec on the master branch.
+If you leave off the version, it will be figured out from the repository's gemspec on the master branch.
 
-If you also leave of the username and repository, they will be figured out from the the origin remote's URL. The version will also be figured out from the repository's gemspec on master.
+If you also leave off the username and repository, they will be figured out from the origin remote's URL. The version will also be figured out from the repository's gemspec on master.
 
 == Contributions and credit
 
