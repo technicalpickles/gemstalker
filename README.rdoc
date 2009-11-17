@@ -1,5 +1,7 @@
 = gemstalker
 
+I'm going to be straight with you. If you haven't heard, GitHub no longer builds gems. Which means this gem is probably useless now. But if you're still interested...
+
 GemStalker is a small utility to determine if GitHub has built a gem yet.
 
   sudo gem install technicalpickles-gemstalker --source http://gems.github.com
